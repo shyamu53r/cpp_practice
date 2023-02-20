@@ -12,7 +12,7 @@ class A
     }
 };
 
-class B: virtual public A
+class B:  public A
 {
     public:
     void funB()
@@ -21,7 +21,7 @@ class B: virtual public A
     }
 };
 
-class C: virtual public A
+class C:  public A
 {
     public:
     void funC()

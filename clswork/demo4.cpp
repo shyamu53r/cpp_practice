@@ -14,7 +14,7 @@ void printValue(int a,int b)
 }
 void printValue(char ch,int a)
 {
-    printf("\n char ch=%c  int a=%d",ch,a);
+    printf("\n char ch=%c  int a=%d",a,ch);
 }
 void printValue(int a ,char ch)
 {

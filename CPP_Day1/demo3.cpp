@@ -16,7 +16,7 @@ int main()
     r=add(1,2,3);
     r=add(1,2,3,4);
 
-   // printf("result=%d",r);
+   printf("result=%d",r);
     return 0;
    
 }

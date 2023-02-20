@@ -1,9 +1,10 @@
 #include<stdio.h>
 
 
- void printMessage()
+inline void printMessage()
 {
-    printf("Good morning to all... :)\n");
+    printf("Good morning to all...:\n");
+
 }
 
 int main()
@@ -14,8 +15,6 @@ int main()
     printMessage();
     printMessage();
 
-    
-    
 
 
     return 0;

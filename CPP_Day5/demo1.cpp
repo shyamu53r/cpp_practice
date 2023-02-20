@@ -9,7 +9,7 @@ class singleton
         singleton()
         {
             cout<<"\n---singleton()--- ";
-            data=33;
+           data=33;
         }
     public:
         static singleton* getObject()

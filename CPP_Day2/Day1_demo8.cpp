@@ -23,7 +23,7 @@ int main()
  // struct      veri
     struct time t;
     
-    // t.min=47;
+     //t.min=47;
     // t.sec=33;
     t.acceptTime();
     //t.hr=10;

@@ -15,7 +15,7 @@ int main()
     delete ptr2;
     ptr2=NULL;
 
-    int *ptr3=(int*)malloc(20);
+    int *ptr3=(int*)malloc(2);
     for (int i = 0; i < 5; i++)
     {
         ptr3[i]=i+1;

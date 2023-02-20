@@ -11,9 +11,9 @@ class BASE
 		int PublicData;
 };
 
-class Derived: private BASE
+class Derived: protected BASE
 {
-	void printDate()
+	void printData()
 	{
 		this->PrivateData=1;
 		this->ProtectedData=1;
